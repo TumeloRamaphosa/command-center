@@ -1,11 +1,10 @@
-#!/usr/bin/env node
+'use client';
+
 /**
  * Command Center - Naledi Nexus
  * Desktop + Mobile friendly with TTS/STT
  * Freedom Day Theme - Orange & Black
  */
-
-'use client';
 
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -13,7 +12,7 @@ import {
   Mic, MicOff, Send, Terminal, Cpu, Zap,
   Users, BarChart3, MessageSquare, Settings,
   ChevronRight, Play, Pause, Volume2, VolumeX,
-  SouthAfricaFlag, Sparkles, Rocket, Code2
+  Flag, Sparkles, Rocket, Code2
 } from 'lucide-react';
 
 // TTS using Web Speech API (free, built-in)
